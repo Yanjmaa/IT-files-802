@@ -1,7 +1,7 @@
-.header {
+.header--1 {
   width: 100%;
   padding: 2rem 0;
-  background: orangered;
+  background: red;
 }
 
 .green {
@@ -25,7 +25,7 @@
 .purple {
   width: 100%;
   padding: 2rem 0;
-  background: purple;
+  background: #800080;
 }
 
 * {
