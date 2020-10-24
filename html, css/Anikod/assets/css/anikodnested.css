@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  padding-bottom: 63px;
+}
+
+.main .main-header {
+  background: #223140;
+  width: 100%;
+}
+
+.main .main-header .container {
+  max-width: 1150px;
+  margin: auto;
+  border: 1px solid #000;
+}
+/*# sourceMappingURL=anikodnested.css.map */

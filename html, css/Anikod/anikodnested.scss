@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+   position: relative;
+   width: 100%;
+   padding-bottom: 63px;
+   @media(min-width: 1200px) {
+       .main-header {
+            background: #223140;
+            width: 100%;
+                @media(min-width: 1200px) {
+                    .container {
+                        max-width: 1150px;
+                        margin: auto;
+                        border: 1px solid #000;
+                        .header {
+                            width: 100%;
+                            background: #223140;
+                            padding: 5px 0;
+                            display: flex;
+                            justify-content: center;
+                            color: #fafafa;
+                            font-weight: 700;
+                            @media(min-width: 1200px) {
+                                .header-items {
+                                width: 50%;
+                                    img {
+                                    width: 126px;
+                                }
+                            }
+                        }
+                        .menu {
+                            display: none;
+                        }
+                        @media(min-width: 768px) {
+                            .menu {
+                                display: block;
+                            }
+                        }
+                        @media(min-width: 768px) {
+                            .header-items {
+                                width: 50%;
+                                @media(min-width: 768px) {
+                                    ul li {
+                                        display: inline-block;
+                                        padding: 0 1rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ad-header {
+        width: 100%;
+    }
+    .all-anime-section {
+        width: 100%;
+        padding: 1.5rem 0;
+        .single__anime__box {
+            width: 90%;
+            margin: auto;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 10px;
+            h3 {
+                margin-left: 20px;
+                border-left: 5px solid #00acc1;
+                padding-left: 1rem;
+            }
+            img {
+                width: 100%;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+        }
+           
+    }
+}
+

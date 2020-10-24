@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  padding-bottom: 63px;
+}
+
+@media (min-width: 1200px) {
+  .main .main-header {
+    background: #223140;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) and (min-width: 1200px) {
+  .main .main-header .container {
+    max-width: 1150px;
+    margin: auto;
+    border: 1px solid #000;
+  }
+  .main .main-header .container .header {
+    width: 100%;
+    background: #223140;
+    padding: 5px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #fafafa;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 1200px) and (min-width: 1200px) and (min-width: 1200px) {
+  .main .main-header .container .header .header-items {
+    width: 50%;
+  }
+  .main .main-header .container .header .header-items img {
+    width: 126px;
+  }
+}
+
+@media (min-width: 1200px) and (min-width: 1200px) {
+  .main .main-header .container .header .menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) and (min-width: 1200px) and (min-width: 768px) {
+  .main .main-header .container .header .menu {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) and (min-width: 1200px) and (min-width: 768px) {
+  .main .main-header .container .header .header-items {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) and (min-width: 1200px) and (min-width: 768px) and (min-width: 768px) {
+  .main .main-header .container .header .header-items ul li {
+    display: inline-block;
+    padding: 0 1rem;
+  }
+}
+
+.main .ad-header {
+  width: 100%;
+}
+
+.main .all-anime-section {
+  width: 100%;
+  padding: 1.5rem 0;
+}
+
+.main .all-anime-section .single__anime__box {
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.main .all-anime-section .single__anime__box h3 {
+  margin-left: 20px;
+  border-left: 5px solid #00acc1;
+  padding-left: 1rem;
+}
+
+.main .all-anime-section .single__anime__box img {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+/*# sourceMappingURL=anikodnested.css.map */
