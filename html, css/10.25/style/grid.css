@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (200px)[2];
+      grid-template-rows: repeat(2, 200px);
+  grid-gap: 1rem;
+}
+
+.container .items {
+  background: orangered;
+  font-size: 3rem;
+  color: #fff;
+}
+/*# sourceMappingURL=grid.css.map */
